@@ -33,11 +33,8 @@ import java.util.ArrayList;
  *  8) Parallel Volumes
  *  9) Parallel Dates
  * 
- * The respective CSV files of the mentioned companies' stock data is in the project. They were located from Kaggle, credits to Jiun Yen for uploading them. 
- * 
- * GitHub Note: please do not copy this project on your own and claim it as your own work. You may use my project as long as you cite me or my ideas if inspired from here. 
  *  
- * The description of these methods is provided one by one before them.
+ * The description of these methods is provided one by one before them. (Sorry for being lazy down the road, the logic is repettive in pairs of methods :/)
  * 
  * -> Edit (5/21/2024): Added more rows to NVDA to showcase growth from 2020-2024
  * -> Edit (5/21/2024): Added ARM stock, a new semiconductor company from UK

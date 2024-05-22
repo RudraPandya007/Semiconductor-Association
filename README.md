@@ -3,14 +3,10 @@ Hello! My name is Rudra Pandya and I am the creator of the Semiconductor Industr
 
 Now what are the applications of this?
 Great question! The data which can be presented by you in any condition are given by different methods shown below. In particular, menu numbers such as 5, 6, 7 use various methods with their parallel methods to display components such as profits with their respective volumes and dates to output files. Another example is shown in method 6, which uses the quicksort algorithm to sort the profits and finds its parallel volumes and dates presented in output files. This data can be pasted into Google Spreadsheet or Microsoft Excel or in BI Dashboards for data visualization. In reality, this is a mid-level project which has similar levels of complexity as other coding assignments given in your university.
-## Features
 
-- **First step: **Read CSV Data****: Load historical stock data for various semiconductor companies.
-- **Specific Date Information**: Retrieve and display information for a specific date.
-- **Volume Analysis**: Analyze trading volumes between two dates.
-- **Percent Change**: Calculate the percent change in closing, highest, and lowest prices compared to the opening price.
-- **Max and Min Profits**: Identify the dates with maximum and minimum profits.
-- **Forward Data to Files**: Save profits, dates, and volumes to separate files.
+## Concise overview on methods
+- : This is the first inevitable step before stepping into analysis. 
+
 
 ## Ticker Files
 

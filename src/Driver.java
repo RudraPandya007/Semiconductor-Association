@@ -27,18 +27,18 @@ public class Driver {
         System.out.println("3. Percent Change");
         System.out.println("4. Max and Min Profits");
         System.out.println("5. Forward profits with their dates and volumes to a file");
-        System.out.println("8. Forward sorted profits with their dates and volumes to a file");
-        System.out.println("9. Forward prices with their dates and volumes to a file");
-        System.out.println("10. Exit");
+        System.out.println("6. Forward sorted profits with their dates and volumes to a file");
+        System.out.println("7. Forward prices with their dates and volumes to a file");
+        System.out.println("8. Exit");
 
         int choice = -1;
         do {
             System.out.println();
-            System.out.print("Enter your choice (0-10): ");
+            System.out.print("Enter your choice (1-8): ");
             try {
                 choice = Integer.parseInt(scanner.nextLine());
-                if (choice < 0 || choice > 10) {
-                    System.out.println("Invalid choice! Please enter a number between 0 and 7.");
+                if (choice < 1 || choice > 8) {
+                    System.out.println("Invalid choice! Please enter a number between 1 and 8.");
                 } else {
                     switch (choice) {
                         case 1:
@@ -138,11 +138,11 @@ public class Driver {
                             }
                             System.out.println("Output forwarded to Volumes.out");
                             break;
-                        case 8:
+                        case 6:
                             System.out.println();
                             System.out.println("-----------------------------------------------------------------------------------------");
                             System.out.println();
-                            System.out.println("You entered option 8!");
+                            System.out.println("You entered option 6!");
                             System.out.print("Enter the earlier date (YYYY-MM-DD): ");
                             String case8_date1 = scanner.nextLine();
                             System.out.print("Enter the later date (YYYY-MM-DD): ");
@@ -179,11 +179,11 @@ public class Driver {
                             }
                             System.out.println("Output forwarded to SortedVolumes.out");
                             break;
-                        case 9:
+                        case 7:
                             System.out.println();
                             System.out.println("-----------------------------------------------------------------------------------------");
                             System.out.println();
-                            System.out.println("You entered option 9!");
+                            System.out.println("You entered option 7!");
                             System.out.print("Enter the earlier date (YYYY-MM-DD): ");
                             String case9_date1 = scanner.nextLine();
                             System.out.print("Enter the later date (YYYY-MM-DD): ");
@@ -219,7 +219,7 @@ public class Driver {
                             }
                             System.out.println("Output forwarded to VolumesOverTime.out");
                             break;
-                        case 10:
+                        case 8:
                             System.out.println("Thank you for your time!");
                             break;
                     }
@@ -227,7 +227,7 @@ public class Driver {
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input! Please enter a valid integer choice.");
             }
-        } while (choice != 10);
+        } while (choice != 8);
 
         // Close the scanner
         scanner.close();

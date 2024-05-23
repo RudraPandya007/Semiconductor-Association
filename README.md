@@ -1,5 +1,5 @@
 # Semiconductor Industry Analysis Project
-Hello! My name is Rudra Pandya and I am the creator of the Semiconductor Industry Analysis Project. This project focuses on various companies which are designated in the Semiconductor Industry such as Nvidia, AMD, Intel, and many more. The representation of these companies are stored as a Ticker (Nvidia = NVDA) and each ticker has its own .csv file which has data about the stock of the company. Data would include date, volume, opening price, closing price, highest price, lowest price, and adjusted closing price. There are thousands of lines of data corresponding to each .csv file from 1990s to 2019 at most; However, due to the strict uprise of Nvidia in 2024, I have added more lines of data from 2018 to 2024 to monitor its lucrative performance. 
+Hello! My name is Rudra Pandya and I am the creator of the Semiconductor Industry Analysis Project. This project focuses on various companies which are designated in the Semiconductor Industry such as Nvidia, AMD, Intel, and many more. The representation of these companies are stored as a Ticker (Nvidia = NVDA) and each ticker has its own .csv file which has data about the stock of the company. Data would include date, volume, opening price, closing price, highest price, lowest price, and adjusted closing price. There are thousands of lines of data corresponding to each .csv file from 1990s to 2019 at most; However, due to the strict uprise of Nvidia in 2024, I have added more lines of data from 2018 to 2024 to monitor its lucrative performance. We are going to dive into that midway to the end!
 
 Now what are the applications of this?
 Great question! The data which can be presented by you in any condition are given by different methods shown below. In particular, menu numbers such as 5, 6, 7 use various methods with their parallel methods to display components such as profits with their respective volumes and dates to output files. Another example is shown in method 6, which uses the quicksort algorithm to sort the profits and finds its parallel volumes and dates presented in output files. This data can be pasted into Google Spreadsheet or Microsoft Excel or in BI Dashboards for data visualization. In reality, this is a mid-level project which has similar levels of complexity as other coding assignments given in your university.
@@ -323,7 +323,7 @@ Volumes Over Time
 38897100
 36370900
 ```
-# Application standpoint (NVIDIA April 2024)
+# Application standpoint (NVIDIA on April 2024)
 As mentioned, these data points could be pasted onto excel to create effective visualizations. This project has the potential to include as many characteristics you want to economically or financially analyze the .csv files, but as of its completion it is limited to only financial analysis. My next project, which would be hopefully Oil Industry Economical Analysis is going to focus on common microeconomic/macroeconomic principles to analyze and showcase data as proven in this project, which would be used onto excel for visualizations. 
 
 ### Method 5 visualization

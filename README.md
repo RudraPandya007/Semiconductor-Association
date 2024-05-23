@@ -1,4 +1,4 @@
-## Semiconductor Industry Analysis Project
+# Semiconductor Industry Analysis Project
 Hello! My name is Rudra Pandya and I am the creator of the Semiconductor Industry Analysis Project. This project focuses on various companies which are designated in the Semiconductor Industry such as Nvidia, AMD, Intel, and many more. The representation of these companies are stored as a Ticker (Nvidia = NVDA) and each ticker has its own .csv file which has data about the stock of the company. Data would include date, volume, opening price, closing price, highest price, lowest price, and adjusted closing price. There are thousands of lines of data corresponding to each .csv file from 1990s to 2019 at most; However, due to the strict uprise of Nvidia in 2024, I have added more lines of data from 2018 to 2024 to monitor its lucrative performance. 
 
 Now what are the applications of this?
@@ -83,9 +83,9 @@ Please choose an option:
 8. Exit
 ```
 
-## Output files overview
+# Output files overview
 Each option from method 5 to method 7 would create 3 output files corresponding to what is being evaluated given in the menu option.
-## Method 5 output files (NVIDIA on April 2024)
+### Method 5 output files (NVIDIA on April 2024)
 - These are the profits printed out assuming early date parameter is 2024-04-01 and later date parameter is 2024-04-30. 
 ```plaintext
 Profits
@@ -164,7 +164,7 @@ Volumes
 38897100
 36370900
 ```
-## Method 6 output files (NVIDIA on April 2024)
+### Method 6 output files (NVIDIA on April 2024)
 - The profits are then sorted here using QuickSort algorithm and printed out assuming early date parameter is 2024-04-01 and later date parameter is 2024-04-30.
 ```plaintext
 Sorted Profits
@@ -244,7 +244,7 @@ Volumes
 36370900
 ```
 
-## Method 7 output files (NVIDIA on April 24)
+### Method 7 output files (NVIDIA on April 24)
 - These are the adjusted closing prices printed out assuming the early date parameter is 2024-04-01 and later date parameter is 2024-04-30.
 ```plaintext
 Prices over time
@@ -323,11 +323,26 @@ Volumes Over Time
 38897100
 36370900
 ```
-## Application standpoint
-As mentioned, these data points could be pasted onto excel to create effective visualizations. This project has the potential to include as many characteristics you want to economically or financially analyze the .csv files, but as of its completion it is limited to only financial analysis. My next project, which would be hopefully Oil Industry Economical Analysis is going to focus on common microeconomic/macroeconomic principles to analyze and showcase data as proven in this project, which would be used onto excel for visualizations. Let's focus on the visualization of Method 5 representing Nvidia's maximum profit performance in April 2024.
+# Application standpoint (NVIDIA April 2024)
+As mentioned, these data points could be pasted onto excel to create effective visualizations. This project has the potential to include as many characteristics you want to economically or financially analyze the .csv files, but as of its completion it is limited to only financial analysis. My next project, which would be hopefully Oil Industry Economical Analysis is going to focus on common microeconomic/macroeconomic principles to analyze and showcase data as proven in this project, which would be used onto excel for visualizations. 
+
+### Method 5 visualization
 - The left figure represents Profits vs Time (Dates)
 - The right figure represents Volumes vs Time (Dates)
-<img width="361" alt="image" src="https://github.com/RudraPandya007/Semiconductor-Association/assets/155129057/3b9b8105-be49-4960-969e-8438c8ed8a20">
+<img width="361" alt="image" src="https://github.com/RudraPandya007/Semiconductor-Association/assets/155129057/1a22264e-85ed-4687-bede-72ea3aeaee38">
 <img width="361" alt="image" src="https://github.com/RudraPandya007/Semiconductor-Association/assets/155129057/30a0e327-7015-460c-8f28-bcec7845da14">
 
+### Method 6 visualization
+- The left figure represents Sorted Profits vs Time (Dates)
+- The right figure represents Parallel Volumes vs Time (Dates)
+<img width="361" alt="image" src="https://github.com/RudraPandya007/Semiconductor-Association/assets/155129057/06fd8d2e-7b1d-4da9-9276-7d3693996c7b">
+<img width="361" alt="image" src="https://github.com/RudraPandya007/Semiconductor-Association/assets/155129057/34e8e2c8-17a5-42a0-aef7-1a90f60e33e9">
 
+### Method 7 visualization
+- The left figure represents Prices vs Time (Dates)
+- The right figure shows Volumes vs Time (Dates)
+<img width="362" alt="image" src="https://github.com/RudraPandya007/Semiconductor-Association/assets/155129057/e52a4eb7-5c55-4181-ac8b-245e4a8cca33">
+<img width="362" alt="image" src="https://github.com/RudraPandya007/Semiconductor-Association/assets/155129057/77db7a1f-34f3-48de-9ee8-9fde84f70c67">
+
+# Conclusion
+I hope everyone who is reading this enjoyed my project! Please let me know your thoughts about it. Have a great day! Cheers mate!

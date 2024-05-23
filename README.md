@@ -323,3 +323,7 @@ Volumes Over Time
 38897100
 36370900
 ```
+## Application standpoint
+As mentioned, these data points could be pasted onto excel to create effective visualizations. This project has the potential to include as many characteristics you want to economically or financially analyze the .csv files, but as of its completion it is limited to only financial analysis. My next project, which would be hopefully Oil Industry Economical Analysis is going to focus on common microeconomic/macroeconomic principles to analyze and showcase data as proven in this project, which would be used onto excel for visualizations. Now, let's get started with what the data presents. 
+- Figure 1.1 represents Profits vs Time (Dates)
+- Figure 1.2 represents Volumes vs Time (Dates)
